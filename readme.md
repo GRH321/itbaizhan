@@ -1,3 +1,14 @@
+## 项目概述1.0版本
+目前项目完成程序主页面的编写，全部使用uniapp所提供的组件编写，其中各个功能都是用组件化的方式进行开发。
+## 当前成果展示
+![1](https://user-images.githubusercontent.com/101340666/167547319-2354a701-3308-4d20-81d7-229b2c68a536.jpg)
+![2](https://user-images.githubusercontent.com/101340666/167547332-e8310c46-bf69-41ef-b6c0-ab5ea4ffb753.jpg)
+![3](https://user-images.githubusercontent.com/101340666/167547337-5b49698c-613e-4edd-b467-22ab22f1cdae.jpg)
+![5](https://user-images.githubusercontent.com/101340666/167547345-a78d8db7-74f4-4fb2-8755-72629dce2f24.png)
+![6](https://user-images.githubusercontent.com/101340666/167547348-85b48ba9-719d-4fd4-a3d0-32773c931817.png)
+![7](https://user-images.githubusercontent.com/101340666/167547355-b7b0b639-aaef-4e1c-9698-c580876a231b.png)
+
+
 ## 轮播图模块
 1. 接口地址：http://html5.bjsxt.cn/api/index/banner
 
@@ -16,13 +27,9 @@
 ## 课程列表详情
 1. 接口地址：http://html5.bjsxt.cn/api/course/detail?id=4&course=no
 
-## 项目打包
-1. H5端
-	1. 配置uniapp的appid
-	2. 修改默认运行的路径
-2. 微信小程序端
-	1. 注册微信小程序账号
-	2. 获取微信小程序的Appid
-	3. 注意：微信小程序的最大项目限制是2MB
-3. App端（Android）
+## 联系作者
+![166187846-e9bdd1ba-cd37-4287-b50f-7742ff042b27](https://user-images.githubusercontent.com/101340666/167547475-b54f9fed-eab1-434a-8cc0-e681bcdf7c95.jpg)
+
+
+
 	
