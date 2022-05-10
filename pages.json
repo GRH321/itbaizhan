@@ -1,0 +1,179 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/tabbbar/index/index",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbbar/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分类",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#00b783",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbbar/study/study",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "学习",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#00b783",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbbar/classify/classify",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#00b783",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/navbar/navbar",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/course-nav/course-nav",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/free-card/free-card",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/job-scroll/job-scroll",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/course-card/course-card",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/course/courseIntroduce",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课程介绍",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0c9c8f"
+            }
+            
+        }
+        
+        ,{
+            "path" : "components/couser-intrduce-data/couser-intrduce-data",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/course-list/course-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/course-jieshao/course-jieshao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/course/player",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课程播放",
+                "enablePullDownRefresh": false,
+                "navigationBarTextStyle": "white",
+                "navigationBarBackgroundColor": "#0c9c8f"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "#999",
+		"selectedColor": "#00b783",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/tabbbar/index/index",
+				"iconPath": "static/tabar1.png",
+				"selectedIconPath": "static/tabaron1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbbar/mine/mine",
+				"iconPath": "static/tabar2.png",
+				"selectedIconPath": "static/tabaron2.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/tabbbar/study/study",
+				"iconPath": "static/tabar3.png",
+				"selectedIconPath": "static/tabaron3.png",
+				"text": "学习"
+			},
+			{
+				"pagePath": "pages/tabbbar/classify/classify",
+				"iconPath": "static/tabar4.png",
+				"selectedIconPath": "static/tabaron4.png",
+				"text": "我的"
+			}
+		]
+	}
+}
